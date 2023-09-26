@@ -1,5 +1,4 @@
 # diasrfgenerator
-dias rf payment code generator with price check and payment
 
-Create RI18 compatible payment codes for DIAS
+Create RI18 dias rf payment code generator with price check and payment
 Visual Studio 2019

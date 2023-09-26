@@ -39,6 +39,5 @@ Module GenerateRFCodes
         Return "RF" & CD & X
     End Function
 
-
 End Module
-    End Function
+

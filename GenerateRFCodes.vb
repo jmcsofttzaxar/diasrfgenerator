@@ -5,7 +5,7 @@ Module GenerateRFCodes
    'customer     Merchant's customer id (the last 4 digits, do not includ the first 9)
     'identifier   Payment identifier (15 digits)
     'value        Optional value to generate check code
-    'type         Default is "normal"
+    'Type_tmp         Default is "normal"
 
     Public Function CreateRF(ByVal customer As String, ByVal identifier As String, Optional ByVal value As Double = 0, Optional ByVal Type_tmp As String = "normal") As String
         identifier = System.Text.RegularExpressions.Regex.Replace(identifier, "[^0-9]", "")
